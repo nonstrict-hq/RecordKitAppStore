@@ -2,18 +2,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "RecordKitAppStore",
+    name: "RecordKitSandboxed",
     platforms: [
         .macOS(.v13)
     ],
     products: [
-        .library(name: "RecordKitAppStore", targets: ["RecordKitAppStore"]),
+        .library(name: "RecordKitSandboxed", targets: ["RecordKitSandboxed"]),
     ],
     targets: [
         .binaryTarget(
-            name: "RecordKitAppStore",
-            url: "https://download.nonstrict.eu/recordkit/recordkit-swift-0.85.0-beta.2-appstore.zip",
-            checksum: "28115e8769eae21dd64308b9dd6c34500126c0b198ac34d1869452e5e9b9f85a"
+            name: "RecordKitSandboxed",
+            url: "https://download.nonstrict.eu/recordkit/recordkit-swift-0.85.0-beta.4-sandboxed.zip",
+            checksum: "e48f6ccba93a15ff6a109f85d6a1a20c2015ab4298814abceab184cde3d8efd4"
         ),
     ]
 )
