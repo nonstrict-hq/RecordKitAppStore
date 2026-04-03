@@ -2,6 +2,9 @@
 
 RecordKit is a screen recording SDK for macOS apps. Enabling simultaneous recording of the users screen, system audio, camera, microphone, mouse and keyboard. RecordKit is the recording foundation of apps. Generating easy to use video and JSON to build upon.
 
+> [!NOTE]
+> This version of the SDK has some features disabled to be compatible with the macOS Sandbox. If you're app isn't sandboxed we recommend the [full version of our SDK](https://github.com/nonstrict-hq/RecordKit).
+
 ## Useful links
 
 - [RecordKit Homepage](https://nonstrict.eu/recordkit)
